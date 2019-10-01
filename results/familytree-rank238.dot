@@ -1,0 +1,5 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "026291"   [label="Balderstone, Richard de", shape=box, regular=1, color="blue"] ;
+"026290"   [label="Balderstone, William de", shape=box, regular=1, color="blue"] ;
+026291->026290 [label="father",arrowsize=0.0]; 
+}

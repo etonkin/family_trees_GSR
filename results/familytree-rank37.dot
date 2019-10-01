@@ -1,0 +1,9 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "004345"   [label="Caillau, Bernat", shape=box, regular=1, color="blue"] ;
+"006279"   [label="Caillau, Pey,", shape=box, regular=1, color="blue"] ;
+"025473"   [label="Caillau, Johan", shape=box, regular=1, color="blue"] ;
+"022736"   [label="Caillau, Pey", shape=box, regular=1, color="blue"] ;
+{rank=same; 004345->006279};
+006279->025473 [label="father",arrowsize=0.0]; 
+004345->022736 [label="father",arrowsize=0.0]; 
+}

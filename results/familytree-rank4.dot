@@ -1,0 +1,24 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "005780"   [label="Pommiers, Guilhem-Sans II de", shape=box, regular=1, color="blue"] ;
+"006649"   [label="Pommiers, Amaniu de", shape=box, regular=1, color="blue"] ;
+"004939"   [label="Pommiers, Guilhem-Sans III de", shape=box, regular=1, color="blue"] ;
+"019905"   [label="Pommiers, Guilhem-Amaniu de", shape=box, regular=1, color="blue"] ;
+"025101"   [label="Pommiers, Assalhida de", shape=box, regular=1, color="blue"] ;
+"006677"   [label="Pommiers, Bertran de", shape=box, regular=1, color="blue"] ;
+"024368"   [label="Pommiers, Guilhem-Sans IV de", shape=box, regular=1, color="blue"] ;
+"019482"   [label="Pommiers, Johan de", shape=box, regular=1, color="blue"] ;
+"019483"   [label="019483", shape=box, regular=1, color="blue"] ;
+"019481"   [label="Lescun, Fortaner VII de", shape=box, regular=1, color="blue"] ;
+"009712"   [label="Pommiers, Johan de,", shape=box, regular=1, color="blue"] ;
+"006704"   [label="Pommiers, Bonassias de", shape=box, regular=1, color="blue"] ;
+{rank=same; 004939->006677->009712->006704};
+{rank=same; 006649};
+{rank=same; 025101->024368};
+{rank=same; 019905->005780};
+006649->024368 [label="nephew", arrowsize=0.0]; 
+005780->004939 [label="father",arrowsize=0.0]; 
+004939->024368 [label="father",arrowsize=0.0]; 
+004939->019482 [label="father",arrowsize=0.0]; 
+019482->019481 [label="father",arrowsize=0.0]; 
+019483->019481 [label="mother",arrowsize=0.0]; 
+}

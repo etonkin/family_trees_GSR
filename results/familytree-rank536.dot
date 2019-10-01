@@ -1,0 +1,5 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "004437"   [label="Haro, Juan de", shape=box, regular=1, color="blue"] ;
+"011423"   [label="011423", shape=box, regular=1, color="blue"] ;
+011423->004437 [label="mother",arrowsize=0.0]; 
+}

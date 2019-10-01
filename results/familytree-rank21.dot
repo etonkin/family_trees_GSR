@@ -1,0 +1,12 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "021191"   [label="Cussac, Guiraut de", shape=box, regular=1, color="blue"] ;
+"021190"   [label="Cussac, Ramon de", shape=box, regular=1, color="blue"] ;
+"025256"   [label="Cussac, Johan de", shape=box, regular=1, color="blue"] ;
+"025257"   [label="Cussac, Bernat de", shape=box, regular=1, color="blue"] ;
+"025254"   [label="Cussac, Galhart de", shape=box, regular=1, color="blue"] ;
+{rank=same; 021191->021190};
+025254->021191 [label="father",arrowsize=0.0]; 
+025254->021190 [label="father",arrowsize=0.0]; 
+025254->025256 [label="father",arrowsize=0.0]; 
+025254->025257 [label="father",arrowsize=0.0]; 
+}

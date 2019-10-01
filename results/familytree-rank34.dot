@@ -1,0 +1,10 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "006309"   [label="Moulerin, Pey de", shape=box, regular=1, color="blue"] ;
+"006302"   [label="Moulerin, Arnaut de", shape=box, regular=1, color="blue"] ;
+"006301"   [label="Moulerin, Pey de", shape=box, regular=1, color="blue"] ;
+"018350"   [label="Monlarin, Arnaut de", shape=box, regular=1, color="blue"] ;
+{rank=same; 006302->006309};
+{rank=same; 006301->018350};
+006301->006309 [label="father",arrowsize=0.0]; 
+006301->006302 [label="father",arrowsize=0.0]; 
+}

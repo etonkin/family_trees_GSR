@@ -1,0 +1,5 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "008547"   [label="Poer, John son of Benedict le,", shape=box, regular=1, color="blue"] ;
+"007252"   [label="Poer, Benedict le,", shape=box, regular=1, color="blue"] ;
+007252->008547 [label="father",arrowsize=0.0]; 
+}

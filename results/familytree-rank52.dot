@@ -1,0 +1,7 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "022322"   [label="Berenguela", shape=box, regular=1, color="blue"] ;
+"022321"   [label="Alfonso VIII", shape=box, regular=1, color="blue"] ;
+"022325"   [label="Aragon, Violante of", shape=box, regular=1, color="blue"] ;
+022321->022322 [label="father",arrowsize=0.0]; 
+022325->022322 [label="mother",arrowsize=0.0]; 
+}

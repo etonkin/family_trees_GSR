@@ -1,0 +1,7 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "019809"   [label="Boysson, Thomalin", shape=box, regular=1, color="blue"] ;
+"019763"   [label="Boysson, Johan", shape=box, regular=1, color="blue"] ;
+"019810"   [label="Boysson, Johan", shape=box, regular=1, color="blue"] ;
+019763->019809 [label="father",arrowsize=0.0]; 
+019810->019809 [label="father",arrowsize=0.0]; 
+}

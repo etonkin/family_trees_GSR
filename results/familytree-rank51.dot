@@ -1,0 +1,7 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "018278"   [label="Treulon, Johan de", shape=box, regular=1, color="blue"] ;
+"026329"   [label="Treulon, Pey de", shape=box, regular=1, color="blue"] ;
+"026328"   [label="Treulon, Guilhem de", shape=box, regular=1, color="blue"] ;
+018278->026329 [label="father",arrowsize=0.0]; 
+018278->026328 [label="father",arrowsize=0.0]; 
+}

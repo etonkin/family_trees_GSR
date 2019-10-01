@@ -1,0 +1,21 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "024606"   [label="Oliver, Johan", shape=box, regular=1, color="blue"] ;
+"024607"   [label="Loupiac, Aumus de", shape=box, regular=1, color="blue"] ;
+"024605"   [label="Loupiac, Condessa de", shape=box, regular=1, color="blue"] ;
+"024602"   [label="Loupiac, Mabilia de", shape=box, regular=1, color="blue"] ;
+"024822"   [label="Loupiac, Johan de", shape=box, regular=1, color="blue"] ;
+"024824"   [label="024824", shape=box, regular=1, color="blue"] ;
+"026451"   [label="Oliver, Johan", shape=box, regular=1, color="blue"] ;
+"024823"   [label="Loupiac, Rostanh de", shape=box, regular=1, color="blue"] ;
+{rank=same; 024607->024605->024822->024602};
+024824->024607 [label="mother",arrowsize=0.0]; 
+024823->024607 [label="father",arrowsize=0.0]; 
+024824->024605 [label="mother",arrowsize=0.0]; 
+024823->024605 [label="father",arrowsize=0.0]; 
+024824->024602 [label="mother",arrowsize=0.0]; 
+024823->024602 [label="father",arrowsize=0.0]; 
+024824->024822 [label="mother",arrowsize=0.0]; 
+024823->024822 [label="father",arrowsize=0.0]; 
+024606->026451 [label="father",arrowsize=0.0]; 
+024605->026451 [label="mother",arrowsize=0.0]; 
+}

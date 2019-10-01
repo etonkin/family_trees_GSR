@@ -1,0 +1,9 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "017396"   [label="Henry II", shape=box, regular=1, color="blue"] ;
+"003184"   [label="Richard I", shape=box, regular=1, color="blue"] ;
+"008913"   [label="Henry III", shape=box, regular=1, color="blue"] ;
+"008929"   [label="John Lackland", shape=box, regular=1, color="blue"] ;
+017396->003184 [label="father",arrowsize=0.0]; 
+008929->008913 [label="father",arrowsize=0.0]; 
+017396->008929 [label="father",arrowsize=0.0]; 
+}

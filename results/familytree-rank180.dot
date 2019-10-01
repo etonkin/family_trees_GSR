@@ -1,0 +1,5 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "008921"   [label="Archambaud IV", shape=box, regular=1, color="blue"] ;
+"008922"   [label="Foix, Brunissen de", shape=box, regular=1, color="blue"] ;
+008922->008921 [label="mother",arrowsize=0.0]; 
+}

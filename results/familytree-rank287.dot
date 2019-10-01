@@ -1,0 +1,5 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "005139"   [label="005139", shape=box, regular=1, color="blue"] ;
+"005138"   [label="Parthenay, Jeanne de", shape=box, regular=1, color="blue"] ;
+005139->005138 [label="father",arrowsize=0.0]; 
+}

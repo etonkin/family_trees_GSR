@@ -1,0 +1,5 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "009358"   [label="Weston, Richard de", shape=box, regular=1, color="blue"] ;
+"009357"   [label="Weston, Thomas son of Richard de", shape=box, regular=1, color="blue"] ;
+009358->009357 [label="father",arrowsize=0.0]; 
+}

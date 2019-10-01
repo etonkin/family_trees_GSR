@@ -1,0 +1,9 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "021641"   [label="Angevin, Johan", shape=box, regular=1, color="blue"] ;
+"021639"   [label="Angebin, Jacmes", shape=box, regular=1, color="blue"] ;
+"021640"   [label="Angebin, Henric", shape=box, regular=1, color="blue"] ;
+"021183"   [label="Angebin, Bernat", shape=box, regular=1, color="blue"] ;
+021183->021641 [label="father",arrowsize=0.0]; 
+021183->021639 [label="father",arrowsize=0.0]; 
+021183->021640 [label="father",arrowsize=0.0]; 
+}

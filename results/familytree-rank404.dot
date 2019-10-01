@@ -1,0 +1,5 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "016531"   [label="Camps, Guilhem des", shape=box, regular=1, color="blue"] ;
+"023613"   [label="Camps, Pey des", shape=box, regular=1, color="blue"] ;
+016531->023613 [label="father",arrowsize=0.0]; 
+}

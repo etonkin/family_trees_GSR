@@ -1,0 +1,15 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "013411"   [label="Charles V", shape=box, regular=1, color="blue"] ;
+"021081"   [label="Charles VII", shape=box, regular=1, color="blue"] ;
+"019969"   [label="France, Jean de", shape=box, regular=1, color="blue"] ;
+"010365"   [label="Philip of Valois", shape=box, regular=1, color="blue"] ;
+"005240"   [label="John the Good", shape=box, regular=1, color="blue"] ;
+"018190"   [label="France, Louis de", shape=box, regular=1, color="blue"] ;
+"016502"   [label="Charles VI", shape=box, regular=1, color="blue"] ;
+005240->013411 [label="father",arrowsize=0.0]; 
+016502->021081 [label="father",arrowsize=0.0]; 
+005240->019969 [label="father",arrowsize=0.0]; 
+010365->005240 [label="father",arrowsize=0.0]; 
+016502->018190 [label="father",arrowsize=0.0]; 
+013411->016502 [label="father",arrowsize=0.0]; 
+}

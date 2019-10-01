@@ -1,0 +1,7 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "008905"   [label="Cantemerle, Blanqua de", shape=box, regular=1, color="blue"] ;
+"008902"   [label="Cantermerle, Ramon de,", shape=box, regular=1, color="blue"] ;
+"008901"   [label="Cantermerle, Contor de,", shape=box, regular=1, color="blue"] ;
+{rank=same; 008905->008901};
+008902->008901 [label="father",arrowsize=0.0]; 
+}

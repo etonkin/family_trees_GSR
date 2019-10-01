@@ -1,0 +1,10 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "010195"   [label="Domezain, Gassie-Arnaut de,", shape=box, regular=1, color="blue"] ;
+"010194"   [label="Sault, Auger de,", shape=box, regular=1, color="blue"] ;
+"010193"   [label="Sault, Guilhem-Arnaut de", shape=box, regular=1, color="blue"] ;
+"010192"   [label="Sault, Per-Arnaut de", shape=box, regular=1, color="blue"] ;
+{rank=same; 010194->010192};
+010195->010192 [label="nephew", arrowsize=0.0]; 
+010193->010194 [label="father",arrowsize=0.0]; 
+010193->010192 [label="father",arrowsize=0.0]; 
+}

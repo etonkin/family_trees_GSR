@@ -1,0 +1,14 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "017880"   [label="Beaumont, Charles de", shape=box, regular=1, color="blue"] ;
+"017881"   [label="Beaumont, Charles de", shape=box, regular=1, color="blue"] ;
+"022426"   [label="Beaumont, Luis de", shape=box, regular=1, color="blue"] ;
+"023203"   [label="Beaumont, Guillermo de", shape=box, regular=1, color="blue"] ;
+"019480"   [label="Curton, Arnaut de", shape=box, regular=1, color="blue"] ;
+"019479"   [label="Curton, Anna de", shape=box, regular=1, color="blue"] ;
+{rank=same; 023203->022426};
+017880->017881 [label="father",arrowsize=0.0]; 
+017880->022426 [label="father",arrowsize=0.0]; 
+019479->022426 [label="father",arrowsize=0.0]; 
+017880->023203 [label="father",arrowsize=0.0]; 
+019480->019479 [label="father",arrowsize=0.0]; 
+}

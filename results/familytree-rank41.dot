@@ -1,0 +1,9 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "020085"   [label="Thomasa", shape=box, regular=1, color="blue"] ;
+"020086"   [label="Beylenx, Bertran de", shape=box, regular=1, color="blue"] ;
+"020087"   [label="Lier, Pey", shape=box, regular=1, color="blue"] ;
+"020088"   [label="Chiquet, Pey", shape=box, regular=1, color="blue"] ;
+020086->020085 [label="nephew", arrowsize=0.0]; 
+020087->020085 [label="nephew", arrowsize=0.0]; 
+020087->020088 [label="father",arrowsize=0.0]; 
+}

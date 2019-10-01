@@ -1,0 +1,5 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "010065"   [label="Lankelli, Hugh son of Richard de,", shape=box, regular=1, color="blue"] ;
+"010066"   [label="Lankelli, Richard de,", shape=box, regular=1, color="blue"] ;
+010066->010065 [label="father",arrowsize=0.0]; 
+}

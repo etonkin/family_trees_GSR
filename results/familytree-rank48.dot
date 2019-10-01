@@ -1,0 +1,7 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "017865"   [label="Bidau, Peyrona", shape=box, regular=1, color="blue"] ;
+"017866"   [label="Bidau, Arnaut", shape=box, regular=1, color="blue"] ;
+"017867"   [label="Vignal, Sianes de", shape=box, regular=1, color="blue"] ;
+017866->017865 [label="father",arrowsize=0.0]; 
+017867->017865 [label="mother",arrowsize=0.0]; 
+}

@@ -1,0 +1,7 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "025536"   [label="Saint-Romain, Pey de", shape=box, regular=1, color="blue"] ;
+"025535"   [label="Saint-Romain, Julian de", shape=box, regular=1, color="blue"] ;
+"025534"   [label="Rosefond, Maria de", shape=box, regular=1, color="blue"] ;
+025534->025536 [label="mother",arrowsize=0.0]; 
+025534->025535 [label="mother",arrowsize=0.0]; 
+}

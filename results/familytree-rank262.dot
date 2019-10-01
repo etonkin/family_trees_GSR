@@ -1,0 +1,5 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "009952"   [label="Spellow, William de,", shape=box, regular=1, color="blue"] ;
+"009950"   [label="Spellow, Richard son of William de,", shape=box, regular=1, color="blue"] ;
+009952->009950 [label="father",arrowsize=0.0]; 
+}

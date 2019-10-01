@@ -1,0 +1,9 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "021529"   [label="Bowet, Elizabeth", shape=box, regular=1, color="blue"] ;
+"020716"   [label="Bowet, Nicholas", shape=box, regular=1, color="blue"] ;
+"016543"   [label="Bowet, Henry", shape=box, regular=1, color="blue"] ;
+"021530"   [label="Bowet, Adam", shape=box, regular=1, color="blue"] ;
+{rank=same; 016543->021530};
+021530->021529 [label="father",arrowsize=0.0]; 
+021529->020716 [label="mother",arrowsize=0.0]; 
+}

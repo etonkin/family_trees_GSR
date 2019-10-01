@@ -1,0 +1,11 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "025837"   [label="Lomagne, Arnaut-Ot de", shape=box, regular=1, color="blue"] ;
+"006932"   [label="Beauville, Arnaut de,", shape=box, regular=1, color="blue"] ;
+"025371"   [label="Lomagne, Auger de", shape=box, regular=1, color="blue"] ;
+"001071"   [label="Durfort, Arnaut II de, of Frespech", shape=box, regular=1, color="blue"] ;
+"001072"   [label="Durfort, Arnaut III de, of Frespech", shape=box, regular=1, color="blue"] ;
+001071->025837 [label="nephew", arrowsize=0.0]; 
+001071->006932 [label="nephew", arrowsize=0.0]; 
+001071->025371 [label="nephew", arrowsize=0.0]; 
+001071->001072 [label="father",arrowsize=0.0]; 
+}

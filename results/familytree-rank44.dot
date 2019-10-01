@@ -1,0 +1,9 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "009874"   [label="Saint-Haon, Guiraut de,", shape=box, regular=1, color="blue"] ;
+"009878"   [label="Saint-Haon, Guilhem de,", shape=box, regular=1, color="blue"] ;
+"009879"   [label="Saint-Haon, Marestanh de,", shape=box, regular=1, color="blue"] ;
+"009873"   [label="Saint-Haon, Arnaut de,", shape=box, regular=1, color="blue"] ;
+009874->009878 [label="father",arrowsize=0.0]; 
+009874->009879 [label="father",arrowsize=0.0]; 
+009874->009873 [label="father",arrowsize=0.0]; 
+}

@@ -1,0 +1,7 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "013596"   [label="Latimer, William le", shape=box, regular=1, color="blue"] ;
+"002506"   [label="Latimer, William le", shape=box, regular=1, color="blue"] ;
+"010101"   [label="Latimer, William son of William le", shape=box, regular=1, color="blue"] ;
+010101->013596 [label="father",arrowsize=0.0]; 
+002506->010101 [label="father",arrowsize=0.0]; 
+}

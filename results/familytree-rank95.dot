@@ -1,0 +1,8 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "001614"   [label="Somersby, Roger de,", shape=box, regular=1, color="blue"] ;
+"001612"   [label="Somersby, Roger de,", shape=box, regular=1, color="blue"] ;
+"001613"   [label="Somersby, Laurence son of Roger de", shape=box, regular=1, color="blue"] ;
+{rank=same; 001614->001613};
+001612->001614 [label="father",arrowsize=0.0]; 
+001612->001613 [label="father",arrowsize=0.0]; 
+}

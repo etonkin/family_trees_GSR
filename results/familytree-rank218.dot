@@ -1,0 +1,5 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "009221"   [label="Pinchbeck, William son of Richard de", shape=box, regular=1, color="blue"] ;
+"009222"   [label="Pinchbeck, Richard de,", shape=box, regular=1, color="blue"] ;
+009222->009221 [label="father",arrowsize=0.0]; 
+}

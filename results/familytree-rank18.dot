@@ -1,0 +1,9 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "013545"   [label="Lesbay, Pynot de", shape=box, regular=1, color="blue"] ;
+"013544"   [label="Lesbay, Bertholomiu de", shape=box, regular=1, color="blue"] ;
+"013543"   [label="Lesbay, Per-Ramon de", shape=box, regular=1, color="blue"] ;
+"012310"   [label="Lesbay, Jacmes de", shape=box, regular=1, color="blue"] ;
+"013541"   [label="Lesbay, Guilhem-Pey de", shape=box, regular=1, color="blue"] ;
+"013542"   [label="Lesbay, Johan de", shape=box, regular=1, color="blue"] ;
+{rank=same; 013545->013544->013543->013542->013541->012310};
+}

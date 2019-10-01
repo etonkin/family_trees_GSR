@@ -1,0 +1,6 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "001323"   [label="Gatineau, Pey", shape=box, regular=1, color="blue"] ;
+"001324"   [label="Gatineau, Arnaut", shape=box, regular=1, color="blue"] ;
+"001325"   [label="Gatineau, Johan,", shape=box, regular=1, color="blue"] ;
+{rank=same; 001323->001324->001325};
+}

@@ -1,0 +1,10 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "006782"   [label="Colom, Johan", shape=box, regular=1, color="blue"] ;
+"008923"   [label="Colom, Amaniu,", shape=box, regular=1, color="blue"] ;
+"008925"   [label="Colom, Guilhem-Ramon,", shape=box, regular=1, color="blue"] ;
+"008924"   [label="Colom, Johan,", shape=box, regular=1, color="blue"] ;
+"008926"   [label="008926", shape=box, regular=1, color="blue"] ;
+"011187"   [label="Colom, Guilhem,", shape=box, regular=1, color="blue"] ;
+{rank=same; 006782};
+{rank=same; 008923->008925->008924->008926->011187};
+}

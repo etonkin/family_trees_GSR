@@ -1,0 +1,5 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "008771"   [label="Gladwish, William son of Maud,", shape=box, regular=1, color="blue"] ;
+"008772"   [label="008772", shape=box, regular=1, color="blue"] ;
+008772->008771 [label="mother",arrowsize=0.0]; 
+}

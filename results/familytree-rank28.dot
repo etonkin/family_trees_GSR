@@ -1,0 +1,10 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "001353"   [label="Piis, Bonet de", shape=box, regular=1, color="blue"] ;
+"009701"   [label="Piis, Guilhem de,", shape=box, regular=1, color="blue"] ;
+"001354"   [label="Piis, Ramon de", shape=box, regular=1, color="blue"] ;
+"001362"   [label="Piis, Doat de", shape=box, regular=1, color="blue"] ;
+{rank=same; 001353->001354};
+001362->001353 [label="father",arrowsize=0.0]; 
+001362->001354 [label="father",arrowsize=0.0]; 
+009701->001362 [label="father",arrowsize=0.0]; 
+}

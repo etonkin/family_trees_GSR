@@ -1,0 +1,5 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "008703"   [label="Heghrode, Martin de,", shape=box, regular=1, color="blue"] ;
+"008702"   [label="Heghrode, Robert son of Martin de,", shape=box, regular=1, color="blue"] ;
+008703->008702 [label="father",arrowsize=0.0]; 
+}

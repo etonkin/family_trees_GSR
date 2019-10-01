@@ -1,0 +1,5 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "010176"   [label="Heath Charnock, Richard de,", shape=box, regular=1, color="blue"] ;
+"010175"   [label="Heath Charnock, John son of Richard de,", shape=box, regular=1, color="blue"] ;
+010176->010175 [label="father",arrowsize=0.0]; 
+}

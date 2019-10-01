@@ -1,0 +1,5 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "010057"   [label="Woodward, William son of Walter le,", shape=box, regular=1, color="blue"] ;
+"010058"   [label="Woodward, Walter le,", shape=box, regular=1, color="blue"] ;
+010058->010057 [label="father",arrowsize=0.0]; 
+}

@@ -1,0 +1,5 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "024493"   [label="Chaudrier, Bernard", shape=box, regular=1, color="blue"] ;
+"005137"   [label="Chaudrier, Jean", shape=box, regular=1, color="blue"] ;
+005137->024493 [label="father",arrowsize=0.0]; 
+}

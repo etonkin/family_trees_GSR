@@ -1,0 +1,12 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "017057"   [label="Lahet, Peyroton de", shape=box, regular=1, color="blue"] ;
+"017053"   [label="Lahet, Johan-Martin de", shape=box, regular=1, color="blue"] ;
+"021619"   [label="Lahet, Johan de", shape=box, regular=1, color="blue"] ;
+"017183"   [label="Lahet, Machin de", shape=box, regular=1, color="blue"] ;
+"017052"   [label="Lahet, Auger de", shape=box, regular=1, color="blue"] ;
+"021180"   [label="Lahet, Pey de", shape=box, regular=1, color="blue"] ;
+{rank=same; 017183->017052};
+{rank=same; 017057->017053};
+021180->021619 [label="father",arrowsize=0.0]; 
+017052->021180 [label="father",arrowsize=0.0]; 
+}

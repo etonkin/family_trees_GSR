@@ -1,0 +1,7 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "007472"   [label="Castile, Pedro I, king of,", shape=box, regular=1, color="blue"] ;
+"022310"   [label="Castile, Alfonso of", shape=box, regular=1, color="blue"] ;
+"025980"   [label="Castile, Constanza of", shape=box, regular=1, color="blue"] ;
+007472->022310 [label="father",arrowsize=0.0]; 
+007472->025980 [label="father",arrowsize=0.0]; 
+}

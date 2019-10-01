@@ -1,0 +1,5 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "008679"   [label="Lound, John son of Adam de", shape=box, regular=1, color="blue"] ;
+"008678"   [label="Lound, Adam de,", shape=box, regular=1, color="blue"] ;
+008678->008679 [label="father",arrowsize=0.0]; 
+}

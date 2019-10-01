@@ -1,0 +1,9 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "019516"   [label="Caupenne, Lugana de", shape=box, regular=1, color="blue"] ;
+"014218"   [label="014218", shape=box, regular=1, color="blue"] ;
+"011902"   [label="Saint-Aubin, Arnaut I de", shape=box, regular=1, color="blue"] ;
+"019513"   [label="Saint-Aubin, Arnaut II de", shape=box, regular=1, color="blue"] ;
+014218->019516 [label="father",arrowsize=0.0]; 
+019516->019513 [label="mother",arrowsize=0.0]; 
+011902->019513 [label="father",arrowsize=0.0]; 
+}

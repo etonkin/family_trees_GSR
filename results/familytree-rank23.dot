@@ -1,0 +1,10 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "001058"   [label="Caernarfon, Edward of,", shape=box, regular=1, color="blue"] ;
+"002111"   [label="Woodstock, Edmund of", shape=box, regular=1, color="blue"] ;
+"002213"   [label="Thomas of Brotherton", shape=box, regular=1, color="blue"] ;
+"015095"   [label="Margaret", shape=box, regular=1, color="blue"] ;
+"002429"   [label="Eltham, John of", shape=box, regular=1, color="blue"] ;
+{rank=same; 002213->002111->001058};
+002111->015095 [label="father",arrowsize=0.0]; 
+001058->002429 [label="father",arrowsize=0.0]; 
+}

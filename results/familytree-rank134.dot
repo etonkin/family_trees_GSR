@@ -1,0 +1,5 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "014427"   [label="Loubart, Galhart de,", shape=box, regular=1, color="blue"] ;
+"014426"   [label="Loubart, Sicart de,", shape=box, regular=1, color="blue"] ;
+{rank=same; 014427->014426};
+}

@@ -1,0 +1,7 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "021648"   [label="Andron de Lansac, Mondot", shape=box, regular=1, color="blue"] ;
+"021647"   [label="Lansac, Guilhotin de", shape=box, regular=1, color="blue"] ;
+"021673"   [label="Andron, Guilhem", shape=box, regular=1, color="blue"] ;
+{rank=same; 021648->021647};
+021673->021647 [label="father",arrowsize=0.0]; 
+}

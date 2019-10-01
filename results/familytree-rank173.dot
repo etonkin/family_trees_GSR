@@ -1,0 +1,5 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "003763"   [label="Mouney, Arnaut-Ramon de,", shape=box, regular=1, color="blue"] ;
+"003764"   [label="Mouney, Bertran de,", shape=box, regular=1, color="blue"] ;
+003764->003763 [label="father",arrowsize=0.0]; 
+}

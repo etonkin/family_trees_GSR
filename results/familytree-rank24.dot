@@ -1,0 +1,9 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "014344"   [label="Vignoles, Menaut de,", shape=box, regular=1, color="blue"] ;
+"025287"   [label="Vignoles, Pey de", shape=box, regular=1, color="blue"] ;
+"013826"   [label="Vignoles, Arnaut-Guilhem de,", shape=box, regular=1, color="blue"] ;
+"025291"   [label="Vignoles, Bernat de", shape=box, regular=1, color="blue"] ;
+013826->014344 [label="father",arrowsize=0.0]; 
+025291->025287 [label="father",arrowsize=0.0]; 
+013826->025287 [label="nephew", arrowsize=0.0]; 
+}

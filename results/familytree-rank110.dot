@@ -1,0 +1,7 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "009514"   [label="Tur Langton, John de,", shape=box, regular=1, color="blue"] ;
+"009513"   [label="Tur Langton, John son of John de", shape=box, regular=1, color="blue"] ;
+"009512"   [label="Tur Langton, Robert son of John son of John de", shape=box, regular=1, color="blue"] ;
+009514->009513 [label="father",arrowsize=0.0]; 
+009513->009512 [label="father",arrowsize=0.0]; 
+}

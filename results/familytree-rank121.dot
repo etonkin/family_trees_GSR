@@ -1,0 +1,7 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "008842"   [label="Conishead, Walter de,", shape=box, regular=1, color="blue"] ;
+"008840"   [label="Conishead, Roger son of Peter son of Walter de,", shape=box, regular=1, color="blue"] ;
+"008841"   [label="Conishead, Peter son of Walter de,", shape=box, regular=1, color="blue"] ;
+008841->008840 [label="father",arrowsize=0.0]; 
+008842->008841 [label="father",arrowsize=0.0]; 
+}

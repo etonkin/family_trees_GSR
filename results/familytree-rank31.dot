@@ -1,0 +1,9 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "024648"   [label="Rochechouart, Foucaud de", shape=box, regular=1, color="blue"] ;
+"024649"   [label="Rochechouart, Louis de", shape=box, regular=1, color="blue"] ;
+"024445"   [label="Rochechouart, Louis de", shape=box, regular=1, color="blue"] ;
+"024447"   [label="Rochechouart, Jean de", shape=box, regular=1, color="blue"] ;
+024445->024648 [label="father",arrowsize=0.0]; 
+024445->024649 [label="father",arrowsize=0.0]; 
+024445->024447 [label="father",arrowsize=0.0]; 
+}

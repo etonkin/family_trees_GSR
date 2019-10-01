@@ -1,0 +1,8 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "019031"   [label="Malemort, Galiana de", shape=box, regular=1, color="blue"] ;
+"019033"   [label="Malemort, Blancha de", shape=box, regular=1, color="blue"] ;
+"019032"   [label="Malemort, Jaubert de", shape=box, regular=1, color="blue"] ;
+{rank=same; 019031->019033};
+019032->019031 [label="father",arrowsize=0.0]; 
+019032->019033 [label="father",arrowsize=0.0]; 
+}

@@ -1,0 +1,9 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "021652"   [label="Herauritz, Martin", shape=box, regular=1, color="blue"] ;
+"024041"   [label="Lohobiague, Martin", shape=box, regular=1, color="blue"] ;
+"021654"   [label="Lohobiague, Domenges de", shape=box, regular=1, color="blue"] ;
+"021655"   [label="Riu, Marticot de", shape=box, regular=1, color="blue"] ;
+{rank=same; 021652->021654};
+021652->024041 [label="nephew", arrowsize=0.0]; 
+021652->021655 [label="nephew", arrowsize=0.0]; 
+}

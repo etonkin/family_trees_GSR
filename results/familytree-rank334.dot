@@ -1,0 +1,5 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "005590"   [label="Montpezat, Ramon-Bernat de", shape=box, regular=1, color="blue"] ;
+"002515"   [label="Montpezat, Arnaut de", shape=box, regular=1, color="blue"] ;
+005590->002515 [label="father",arrowsize=0.0]; 
+}

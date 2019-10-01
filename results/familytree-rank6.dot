@@ -1,0 +1,21 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "022334"   [label="Castile, Fernando of", shape=box, regular=1, color="blue"] ;
+"022335"   [label="Castile, Felipe of", shape=box, regular=1, color="blue"] ;
+"022337"   [label="Castile, Sancho of", shape=box, regular=1, color="blue"] ;
+"022330"   [label="Castile, Frederick of", shape=box, regular=1, color="blue"] ;
+"022331"   [label="022331", shape=box, regular=1, color="blue"] ;
+"022332"   [label="Castile, Enrique of", shape=box, regular=1, color="blue"] ;
+"022333"   [label="Castile, Manuel of", shape=box, regular=1, color="blue"] ;
+"007883"   [label="Alfonso X", shape=box, regular=1, color="blue"] ;
+"007882"   [label="Castile, Manuel de,", shape=box, regular=1, color="blue"] ;
+"007880"   [label="Manuel, Juan,", shape=box, regular=1, color="blue"] ;
+022331->022334 [label="father",arrowsize=0.0]; 
+022331->022335 [label="father",arrowsize=0.0]; 
+022331->022337 [label="father",arrowsize=0.0]; 
+022331->022330 [label="father",arrowsize=0.0]; 
+022331->022332 [label="father",arrowsize=0.0]; 
+022331->022333 [label="father",arrowsize=0.0]; 
+022331->007883 [label="father",arrowsize=0.0]; 
+007880->007882 [label="father",arrowsize=0.0]; 
+022333->007880 [label="father",arrowsize=0.0]; 
+}

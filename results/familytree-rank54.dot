@@ -1,0 +1,7 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "018895"   [label="Bourg-Charente, Olivier de", shape=box, regular=1, color="blue"] ;
+"018896"   [label="Bourg-Charente, Robert-Menaud de", shape=box, regular=1, color="blue"] ;
+"018897"   [label="Bourg-Charente, Marguerite de", shape=box, regular=1, color="blue"] ;
+018895->018896 [label="father",arrowsize=0.0]; 
+018895->018897 [label="father",arrowsize=0.0]; 
+}

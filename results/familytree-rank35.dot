@@ -1,0 +1,9 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "023100"   [label="Rouqueys, Pey de", shape=box, regular=1, color="blue"] ;
+"022839"   [label="Rouqueys, Edie de", shape=box, regular=1, color="blue"] ;
+"022838"   [label="Xaintrailles, Fort-Sans de", shape=box, regular=1, color="blue"] ;
+"021855"   [label="Xaintrailles, Johan de", shape=box, regular=1, color="blue"] ;
+023100->022839 [label="father",arrowsize=0.0]; 
+022839->021855 [label="mother",arrowsize=0.0]; 
+022838->021855 [label="father",arrowsize=0.0]; 
+}

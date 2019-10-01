@@ -1,0 +1,10 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "018447"   [label="Folksworth, Joan de", shape=box, regular=1, color="blue"] ;
+"019419"   [label="Brackenborough, Jeanne de", shape=box, regular=1, color="blue"] ;
+"005480"   [label="Rabain, Peter de,", shape=box, regular=1, color="blue"] ;
+"018448"   [label="Brackenborough, John de", shape=box, regular=1, color="blue"] ;
+{rank=same; 019419->005480};
+018448->018447 [label="father",arrowsize=0.0]; 
+005480->018448 [label="nephew", arrowsize=0.0]; 
+019419->018448 [label="mother",arrowsize=0.0]; 
+}

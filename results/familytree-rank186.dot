@@ -1,0 +1,5 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "013896"   [label="Tarsac, two daughters of the late Master Pierre,", shape=box, regular=1, color="blue"] ;
+"013898"   [label="013898", shape=box, regular=1, color="blue"] ;
+013898->013896 [label="mother",arrowsize=0.0]; 
+}

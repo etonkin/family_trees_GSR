@@ -1,0 +1,5 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "025494"   [label="Mataplan the son, Pey-Guilhem de", shape=box, regular=1, color="blue"] ;
+"025493"   [label="Mataplan the father, Pey-Guilhem de", shape=box, regular=1, color="blue"] ;
+025493->025494 [label="father",arrowsize=0.0]; 
+}

@@ -1,0 +1,5 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "008124"   [label="008124", shape=box, regular=1, color="blue"] ;
+"008123"   [label="Stanley, William son of Matilda de", shape=box, regular=1, color="blue"] ;
+008124->008123 [label="mother",arrowsize=0.0]; 
+}

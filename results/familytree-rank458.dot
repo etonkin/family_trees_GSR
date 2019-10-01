@@ -1,0 +1,5 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "008425"   [label="Swynnerton, Roger son of Roger de", shape=box, regular=1, color="blue"] ;
+"008426"   [label="Swynnerton, Roger de", shape=box, regular=1, color="blue"] ;
+008426->008425 [label="father",arrowsize=0.0]; 
+}

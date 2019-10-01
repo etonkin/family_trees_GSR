@@ -1,0 +1,20 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "016338"   [label="016338", shape=box, regular=1, color="blue"] ;
+"022278"   [label="Montferrand, Pey de", shape=box, regular=1, color="blue"] ;
+"016724"   [label="Montferrand, Bertran III de", shape=box, regular=1, color="blue"] ;
+"016545"   [label="Montferrand, Bertran II de", shape=box, regular=1, color="blue"] ;
+"018172"   [label="018172", shape=box, regular=1, color="blue"] ;
+"020527"   [label="Montferrand, David de", shape=box, regular=1, color="blue"] ;
+"023930"   [label="Montferrand, Margarida de", shape=box, regular=1, color="blue"] ;
+"017444"   [label="Montferrand, Johan de", shape=box, regular=1, color="blue"] ;
+"023103"   [label="Montferrand, Johan de", shape=box, regular=1, color="blue"] ;
+{rank=same; 022278->023930};
+016724->022278 [label="father",arrowsize=0.0]; 
+016545->016724 [label="father",arrowsize=0.0]; 
+018172->016724 [label="mother",arrowsize=0.0]; 
+016338->016545 [label="father",arrowsize=0.0]; 
+016545->020527 [label="father",arrowsize=0.0]; 
+016724->023930 [label="father",arrowsize=0.0]; 
+016338->017444 [label="father",arrowsize=0.0]; 
+016724->023103 [label="father",arrowsize=0.0]; 
+}

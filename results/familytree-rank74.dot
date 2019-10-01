@@ -1,0 +1,7 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "016222"   [label="Saint-Symphorien, Johan de", shape=box, regular=1, color="blue"] ;
+"010308"   [label="Saint-Symphorien, Galhart de", shape=box, regular=1, color="blue"] ;
+"010310"   [label="Roussel, Jean", shape=box, regular=1, color="blue"] ;
+010308->016222 [label="father",arrowsize=0.0]; 
+010310->010308 [label="father",arrowsize=0.0]; 
+}

@@ -1,0 +1,6 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "006501"   [label="Savignac, Ramon de,", shape=box, regular=1, color="blue"] ;
+"006503"   [label="Savignac, Guilhem de,", shape=box, regular=1, color="blue"] ;
+"006457"   [label="Savignac, Bidau de,", shape=box, regular=1, color="blue"] ;
+{rank=same; 006501->006503->006457};
+}

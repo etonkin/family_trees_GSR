@@ -1,0 +1,5 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "019181"   [label="Laye, Iter de", shape=box, regular=1, color="blue"] ;
+"019180"   [label="Laye, Pey de", shape=box, regular=1, color="blue"] ;
+{rank=same; 019181->019180};
+}

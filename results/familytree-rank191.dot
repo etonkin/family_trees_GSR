@@ -1,0 +1,5 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "020372"   [label="Barrouil, Galharda", shape=box, regular=1, color="blue"] ;
+"020373"   [label="Piis, Galharda de", shape=box, regular=1, color="blue"] ;
+020373->020372 [label="mother",arrowsize=0.0]; 
+}

@@ -1,0 +1,8 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "013462"   [label="Auger, Robert", shape=box, regular=1, color="blue"] ;
+"013463"   [label="Auger, Hugues", shape=box, regular=1, color="blue"] ;
+"013464"   [label="Auger, Itier", shape=box, regular=1, color="blue"] ;
+{rank=same; 013463->013464};
+013462->013463 [label="father",arrowsize=0.0]; 
+013462->013464 [label="father",arrowsize=0.0]; 
+}

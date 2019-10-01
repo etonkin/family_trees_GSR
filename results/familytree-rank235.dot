@@ -1,0 +1,5 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "008895"   [label="Parasol, Bertran de", shape=box, regular=1, color="blue"] ;
+"008896"   [label="Parasol, Ponts de", shape=box, regular=1, color="blue"] ;
+008896->008895 [label="father",arrowsize=0.0]; 
+}

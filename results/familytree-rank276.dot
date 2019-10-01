@@ -1,0 +1,5 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "021201"   [label="St Amand, John de", shape=box, regular=1, color="blue"] ;
+"021202"   [label="St Amand, Geoffrey Amalric de", shape=box, regular=1, color="blue"] ;
+021202->021201 [label="father",arrowsize=0.0]; 
+}

@@ -1,0 +1,5 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "009096"   [label="Kingerby, Maud de,", shape=box, regular=1, color="blue"] ;
+"009095"   [label="Kingerby, Hugh son of Maud de", shape=box, regular=1, color="blue"] ;
+009096->009095 [label="mother",arrowsize=0.0]; 
+}

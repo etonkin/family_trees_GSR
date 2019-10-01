@@ -1,0 +1,7 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "019251"   [label="Gombaud, Guillaume", shape=box, regular=1, color="blue"] ;
+"019250"   [label="Gombaud de Puyvigier, Pierre", shape=box, regular=1, color="blue"] ;
+"019252"   [label="019252", shape=box, regular=1, color="blue"] ;
+019252->019251 [label="father",arrowsize=0.0]; 
+019251->019250 [label="father",arrowsize=0.0]; 
+}

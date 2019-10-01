@@ -1,0 +1,27 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "009724"   [label="la Trau, Soudan de", shape=box, regular=1, color="blue"] ;
+"010231"   [label="la Trau, Soudic de", shape=box, regular=1, color="blue"] ;
+"016718"   [label="Stratton, Margaret de", shape=box, regular=1, color="blue"] ;
+"019767"   [label="La Trau, Johana de", shape=box, regular=1, color="blue"] ;
+"017716"   [label="Trau, Fauquet de La", shape=box, regular=1, color="blue"] ;
+"019769"   [label="Pommiers, Regina de", shape=box, regular=1, color="blue"] ;
+"017245"   [label="Trau, Bertran de La", shape=box, regular=1, color="blue"] ;
+"008038"   [label="008038", shape=box, regular=1, color="blue"] ;
+"019768"   [label="La Trau, Isabe de", shape=box, regular=1, color="blue"] ;
+"025173"   [label="025173", shape=box, regular=1, color="blue"] ;
+"007152"   [label="Saint-Symphorien, Isabe de", shape=box, regular=1, color="blue"] ;
+"021326"   [label="Trau, Soudic de la", shape=box, regular=1, color="blue"] ;
+"007137"   [label="Stratton, John de", shape=box, regular=1, color="blue"] ;
+009724->017245 [label="nephew", arrowsize=0.0]; 
+009724->010231 [label="father",arrowsize=0.0]; 
+021326->010231 [label="father",arrowsize=0.0]; 
+007137->016718 [label="father",arrowsize=0.0]; 
+007152->016718 [label="mother",arrowsize=0.0]; 
+009724->019767 [label="father",arrowsize=0.0]; 
+019769->019767 [label="mother",arrowsize=0.0]; 
+017716->017245 [label="nephew", arrowsize=0.0]; 
+008038->019769 [label="father",arrowsize=0.0]; 
+010231->019768 [label="father",arrowsize=0.0]; 
+016718->019768 [label="mother",arrowsize=0.0]; 
+025173->021326 [label="father",arrowsize=0.0]; 
+}

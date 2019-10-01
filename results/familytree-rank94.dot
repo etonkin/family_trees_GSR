@@ -1,0 +1,7 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "024272"   [label="Saint-Cricq, Arman de", shape=box, regular=1, color="blue"] ;
+"024077"   [label="Saint-Cricq, Jacmes de", shape=box, regular=1, color="blue"] ;
+"023536"   [label="Saint-Cricq, Per-Arnaut de", shape=box, regular=1, color="blue"] ;
+023536->024272 [label="father",arrowsize=0.0]; 
+023536->024077 [label="father",arrowsize=0.0]; 
+}

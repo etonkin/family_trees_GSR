@@ -1,0 +1,13 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "004367"   [label="Madaillan, Ponts-Amaniu de", shape=box, regular=1, color="blue"] ;
+"017099"   [label="Madaillan, Guilhem-Ramon de", shape=box, regular=1, color="blue"] ;
+"016620"   [label="Lesparre, Florimont de", shape=box, regular=1, color="blue"] ;
+"004591"   [label="004591", shape=box, regular=1, color="blue"] ;
+"005778"   [label="Madaillan, Guilhem-Amaniu de", shape=box, regular=1, color="blue"] ;
+"016675"   [label="Madaillan, Guilhem-Amaniu de", shape=box, regular=1, color="blue"] ;
+{rank=same; 004367->005778};
+005778->017099 [label="father",arrowsize=0.0]; 
+004591->016620 [label="father",arrowsize=0.0]; 
+016620->016675 [label="nephew", arrowsize=0.0]; 
+017099->016675 [label="father",arrowsize=0.0]; 
+}

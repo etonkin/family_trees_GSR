@@ -1,0 +1,11 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "002135"   [label="Got, Regina de,", shape=box, regular=1, color="blue"] ;
+"014804"   [label="Lomagne, Basque of,", shape=box, regular=1, color="blue"] ;
+"016358"   [label="Got, India de", shape=box, regular=1, color="blue"] ;
+"002125"   [label="Got, Bertran de,", shape=box, regular=1, color="blue"] ;
+"015289"   [label="Got, Arnaut-Gassie de", shape=box, regular=1, color="blue"] ;
+{rank=same; 016358->002125};
+002125->002135 [label="father",arrowsize=0.0]; 
+015289->014804 [label="father",arrowsize=0.0]; 
+015289->002125 [label="father",arrowsize=0.0]; 
+}

@@ -1,0 +1,9 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "026020"   [label="Ramon, Guilhem", shape=box, regular=1, color="blue"] ;
+"026021"   [label="Ramon, Pey", shape=box, regular=1, color="blue"] ;
+"026022"   [label="Ramon, Pey", shape=box, regular=1, color="blue"] ;
+"026019"   [label="Ramon, Ayquem", shape=box, regular=1, color="blue"] ;
+026022->026020 [label="father",arrowsize=0.0]; 
+026022->026021 [label="father",arrowsize=0.0]; 
+026022->026019 [label="father",arrowsize=0.0]; 
+}

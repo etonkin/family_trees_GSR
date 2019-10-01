@@ -1,0 +1,8 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "016244"   [label="Saye, Johan de", shape=box, regular=1, color="blue"] ;
+"016243"   [label="Toscanan, Arnaut", shape=box, regular=1, color="blue"] ;
+"015120"   [label="Toscanan, Johan de", shape=box, regular=1, color="blue"] ;
+{rank=same; 016243->015120};
+016244->016243 [label="nephew", arrowsize=0.0]; 
+016244->015120 [label="nephew", arrowsize=0.0]; 
+}

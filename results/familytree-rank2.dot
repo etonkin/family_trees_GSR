@@ -1,0 +1,33 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "019457"   [label="Catherine of Lancaster", shape=box, regular=1, color="blue"] ;
+"002762"   [label="Langley, Edmund of", shape=box, regular=1, color="blue"] ;
+"017161"   [label="York, Edward of", shape=box, regular=1, color="blue"] ;
+"001189"   [label="Gaunt, John of", shape=box, regular=1, color="blue"] ;
+"016478"   [label="Richard II", shape=box, regular=1, color="blue"] ;
+"019778"   [label="Lancaster, Thomas of", shape=box, regular=1, color="blue"] ;
+"006753"   [label="Woodstock, Joan of", shape=box, regular=1, color="blue"] ;
+"017723"   [label="Monmouth, Henry of", shape=box, regular=1, color="blue"] ;
+"023192"   [label="Clarendon, Roger de", shape=box, regular=1, color="blue"] ;
+"001106"   [label="Edward of Woodstock", shape=box, regular=1, color="blue"] ;
+"001593"   [label="Edward of Windsor", shape=box, regular=1, color="blue"] ;
+"016471"   [label="Bolingbroke, Henry of", shape=box, regular=1, color="blue"] ;
+"020331"   [label="Henry II of France", shape=box, regular=1, color="blue"] ;
+"004588"   [label="Isabella", shape=box, regular=1, color="blue"] ;
+"004565"   [label="Woodstock, Thomas of", shape=box, regular=1, color="blue"] ;
+"020219"   [label="Beaufort, Thomas", shape=box, regular=1, color="blue"] ;
+001189->019457 [label="father",arrowsize=0.0]; 
+001593->002762 [label="father",arrowsize=0.0]; 
+002762->017161 [label="father",arrowsize=0.0]; 
+001593->001189 [label="father",arrowsize=0.0]; 
+001106->016478 [label="father",arrowsize=0.0]; 
+016471->019778 [label="father",arrowsize=0.0]; 
+001593->006753 [label="father",arrowsize=0.0]; 
+016471->017723 [label="father",arrowsize=0.0]; 
+001106->023192 [label="father",arrowsize=0.0]; 
+001593->001106 [label="father",arrowsize=0.0]; 
+001189->016471 [label="father",arrowsize=0.0]; 
+017723->020331 [label="father",arrowsize=0.0]; 
+001593->004588 [label="father",arrowsize=0.0]; 
+001593->004565 [label="father",arrowsize=0.0]; 
+001189->020219 [label="father",arrowsize=0.0]; 
+}

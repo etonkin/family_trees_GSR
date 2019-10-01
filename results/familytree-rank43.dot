@@ -1,0 +1,10 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "006905"   [label="Castillon, Guilhem-Amaniu I de,", shape=box, regular=1, color="blue"] ;
+"006906"   [label="Montaut, Martha de,", shape=box, regular=1, color="blue"] ;
+"006908"   [label="Montaut, Ramon I de,", shape=box, regular=1, color="blue"] ;
+"001146"   [label="Mussidan, Guilhem-Amaniu de", shape=box, regular=1, color="blue"] ;
+006905->006908 [label="father",arrowsize=0.0]; 
+006906->006908 [label="mother",arrowsize=0.0]; 
+006905->001146 [label="father",arrowsize=0.0]; 
+006906->001146 [label="mother",arrowsize=0.0]; 
+}

@@ -1,0 +1,15 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "005166"   [label="Morca, Pierre", shape=box, regular=1, color="blue"] ;
+"005167"   [label="Flory, Jeanne", shape=box, regular=1, color="blue"] ;
+"005168"   [label="Flory, Guillaume", shape=box, regular=1, color="blue"] ;
+"005169"   [label="Morelle, Marie", shape=box, regular=1, color="blue"] ;
+"005236"   [label="Vergne, Hennore la", shape=box, regular=1, color="blue"] ;
+"005234"   [label="005234", shape=box, regular=1, color="blue"] ;
+"005235"   [label="Morca, Jeanne", shape=box, regular=1, color="blue"] ;
+{rank=same; 005168->005167};
+{rank=same; 005234->005235};
+005166->005169 [label="father",arrowsize=0.0]; 
+005167->005169 [label="mother",arrowsize=0.0]; 
+005236->005235 [label="mother",arrowsize=0.0]; 
+005166->005235 [label="father",arrowsize=0.0]; 
+}

@@ -1,0 +1,5 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "009492"   [label="Revessone, William le,", shape=box, regular=1, color="blue"] ;
+"009491"   [label="Revessone, Richard son of William le,", shape=box, regular=1, color="blue"] ;
+009492->009491 [label="father",arrowsize=0.0]; 
+}

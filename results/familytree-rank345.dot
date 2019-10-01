@@ -1,0 +1,5 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "017040"   [label="Despenser, Thomas", shape=box, regular=1, color="blue"] ;
+"017041"   [label="Despenser, Edward le", shape=box, regular=1, color="blue"] ;
+017041->017040 [label="father",arrowsize=0.0]; 
+}

@@ -1,0 +1,5 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "009615"   [label="Carswell, Robert son of Alan de", shape=box, regular=1, color="blue"] ;
+"009616"   [label="Carswell, Alan de,", shape=box, regular=1, color="blue"] ;
+009616->009615 [label="father",arrowsize=0.0]; 
+}

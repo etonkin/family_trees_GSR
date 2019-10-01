@@ -1,0 +1,5 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "017906"   [label="Lande, Johan III de la", shape=box, regular=1, color="blue"] ;
+"021049"   [label="Lande, Johan IV de la", shape=box, regular=1, color="blue"] ;
+017906->021049 [label="father",arrowsize=0.0]; 
+}

@@ -1,0 +1,5 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "016711"   [label="Saint-Astier, Arnaut de", shape=box, regular=1, color="blue"] ;
+"016710"   [label="Saint-Astier, Golfier de", shape=box, regular=1, color="blue"] ;
+016710->016711 [label="father",arrowsize=0.0]; 
+}

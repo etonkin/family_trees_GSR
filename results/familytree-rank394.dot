@@ -1,0 +1,5 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "013589"   [label="Levington, Roger son of Robert de,", shape=box, regular=1, color="blue"] ;
+"013590"   [label="Levington, Robert de,", shape=box, regular=1, color="blue"] ;
+013590->013589 [label="father",arrowsize=0.0]; 
+}

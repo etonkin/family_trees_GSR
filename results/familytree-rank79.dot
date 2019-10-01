@@ -1,0 +1,7 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "021065"   [label="Loring, William de", shape=box, regular=1, color="blue"] ;
+"019936"   [label="Loring, Roger", shape=box, regular=1, color="blue"] ;
+"012987"   [label="Loring, Nigel", shape=box, regular=1, color="blue"] ;
+{rank=same; 021065->012987};
+019936->012987 [label="father",arrowsize=0.0]; 
+}

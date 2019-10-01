@@ -1,0 +1,11 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "002439"   [label="Launge, Marguerite,", shape=box, regular=1, color="blue"] ;
+"002438"   [label="Launge, Isabelle,", shape=box, regular=1, color="blue"] ;
+"002437"   [label="Launge, Jean,", shape=box, regular=1, color="blue"] ;
+"002436"   [label="Launge, Jeanne,", shape=box, regular=1, color="blue"] ;
+{rank=same; 002438->002437};
+{rank=same; 002439};
+002436->002439 [label="mother",arrowsize=0.0]; 
+002436->002438 [label="mother",arrowsize=0.0]; 
+002436->002437 [label="mother",arrowsize=0.0]; 
+}

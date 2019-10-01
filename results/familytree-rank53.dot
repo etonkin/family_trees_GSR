@@ -1,0 +1,7 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "016528"   [label="Lamensans, Per-Arnaut de", shape=box, regular=1, color="blue"] ;
+"023099"   [label="Lamensans, Archambaud de", shape=box, regular=1, color="blue"] ;
+"016529"   [label="Lamensans, Guilhem-Arnaut de", shape=box, regular=1, color="blue"] ;
+016529->023099 [label="father",arrowsize=0.0]; 
+016528->016529 [label="father",arrowsize=0.0]; 
+}

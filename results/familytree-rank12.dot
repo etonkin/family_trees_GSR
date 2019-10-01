@@ -1,0 +1,15 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "007160"   [label="Cazeneuve, Johana de,", shape=box, regular=1, color="blue"] ;
+"007161"   [label="Castillon, Ponts IV de, the elder", shape=box, regular=1, color="blue"] ;
+"007163"   [label="Castillon, Ponts V de, the younger", shape=box, regular=1, color="blue"] ;
+"014166"   [label="Castillon, Ponts II de", shape=box, regular=1, color="blue"] ;
+"014167"   [label="Castillon, Pons III de", shape=box, regular=1, color="blue"] ;
+"012876"   [label="Gironde, Margarida de", shape=box, regular=1, color="blue"] ;
+"016754"   [label="Castillon, Pons VI de", shape=box, regular=1, color="blue"] ;
+012876->007161 [label="mother",arrowsize=0.0]; 
+014167->007161 [label="father",arrowsize=0.0]; 
+007160->007163 [label="mother",arrowsize=0.0]; 
+007161->007163 [label="father",arrowsize=0.0]; 
+014166->014167 [label="father",arrowsize=0.0]; 
+007163->016754 [label="father",arrowsize=0.0]; 
+}

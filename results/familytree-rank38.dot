@@ -1,0 +1,9 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "016844"   [label="Lartigue, Arnaut de", shape=box, regular=1, color="blue"] ;
+"016847"   [label="Lartigue, Arnaut de", shape=box, regular=1, color="blue"] ;
+"016849"   [label="Lartigue, Siot de", shape=box, regular=1, color="blue"] ;
+"016848"   [label="Lartigue, Johan de", shape=box, regular=1, color="blue"] ;
+016844->016847 [label="father",arrowsize=0.0]; 
+016844->016849 [label="father",arrowsize=0.0]; 
+016844->016848 [label="father",arrowsize=0.0]; 
+}

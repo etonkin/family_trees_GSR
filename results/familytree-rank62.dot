@@ -1,0 +1,6 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "014903"   [label="Guiraudon, Robert", shape=box, regular=1, color="blue"] ;
+"014904"   [label="Guiraudon, Guilhem,", shape=box, regular=1, color="blue"] ;
+"014905"   [label="Guiraudon, Brun,", shape=box, regular=1, color="blue"] ;
+{rank=same; 014903->014904->014905};
+}

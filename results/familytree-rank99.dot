@@ -1,0 +1,7 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "022270"   [label="Maingot, Philippa", shape=box, regular=1, color="blue"] ;
+"007024"   [label="Elkin, Joan", shape=box, regular=1, color="blue"] ;
+"007019"   [label="Elkin, John", shape=box, regular=1, color="blue"] ;
+022270->007024 [label="mother",arrowsize=0.0]; 
+007019->007024 [label="father",arrowsize=0.0]; 
+}

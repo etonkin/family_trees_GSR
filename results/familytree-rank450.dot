@@ -1,0 +1,5 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "010528"   [label="Cawood, John son of Robert de", shape=box, regular=1, color="blue"] ;
+"010529"   [label="Cawood, Robert de", shape=box, regular=1, color="blue"] ;
+010529->010528 [label="father",arrowsize=0.0]; 
+}

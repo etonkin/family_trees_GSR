@@ -1,0 +1,5 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "009612"   [label="Langton, John son of Walter de", shape=box, regular=1, color="blue"] ;
+"009613"   [label="Langton, Walter de,", shape=box, regular=1, color="blue"] ;
+009613->009612 [label="father",arrowsize=0.0]; 
+}

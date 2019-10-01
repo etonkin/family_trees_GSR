@@ -1,0 +1,5 @@
+digraph D {
+    edge [dir=none];    node [shape=box];    "022320"   [label="Plantagenet, Eleanor", shape=box, regular=1, color="blue"] ;
+"022319"   [label="Aquitaine, Eleanor of", shape=box, regular=1, color="blue"] ;
+022319->022320 [label="mother",arrowsize=0.0]; 
+}
